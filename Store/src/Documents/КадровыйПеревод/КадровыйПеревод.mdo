@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe7bd6cb-540f-4227-b311-c2eb74c14aa8">
+  <producedTypes>
+    <objectType typeId="bb938e2f-799c-4674-ae9e-52573d21ac1a" valueTypeId="e35f9ed3-10e1-4399-a374-54b005103258"/>
+    <refType typeId="477911e5-5d58-4e03-af99-236e6cc30206" valueTypeId="6ba2b375-017b-47aa-9613-1cb0e13bbc15"/>
+    <selectionType typeId="53af02d3-7158-43a8-9cdc-32de2d285cce" valueTypeId="79eedb63-d237-49a5-97f5-fc7696804013"/>
+    <listType typeId="adc281ec-49a1-47bb-8f4a-b5b47169acba" valueTypeId="764cfb8f-7b82-40a9-9ee3-a10f356d4087"/>
+    <managerType typeId="a2accb47-a0be-4d83-a687-e3e67727cb07" valueTypeId="078f153f-aa1d-4542-8c84-00bbbf6214b8"/>
+  </producedTypes>
+  <name>КадровыйПеревод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый перевод</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КадровыйПеревод.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Кадровый перевод</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Кадровые перевод</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="80493d91-0074-4f8b-919b-247badb85705">
+    <name>Порекомендовал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порекомендовал</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
