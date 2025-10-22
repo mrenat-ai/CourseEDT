@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7a67ac4-0344-49d7-8d1d-a0ca1fee6d89">
+  <producedTypes>
+    <objectType typeId="1f01d1da-beb8-4e56-8689-d9904c04e881" valueTypeId="664fd04f-9f9e-496e-8366-fbc9966a44f6"/>
+    <refType typeId="84ef00ff-f648-4b19-9219-fd4ed07e7afd" valueTypeId="f7ccaec2-1594-426a-bc72-439f1e408210"/>
+    <selectionType typeId="43c5c551-b2f7-4621-ae46-972193760761" valueTypeId="71fe44fb-2fd6-4ebc-af4a-4a1ec3a856a2"/>
+    <listType typeId="b696d306-7840-4f95-aa46-e26e2d14a3d4" valueTypeId="4eeec6e7-8d20-46ad-9212-4d838e27e98b"/>
+    <managerType typeId="1268b4f6-75c1-488d-96fa-bc33fd4d647a" valueTypeId="be4d74dc-91ef-440e-aacc-de40fb29ba44"/>
+  </producedTypes>
+  <name>ПриемНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием на работу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриемНаРаботу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Прием на работу</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
