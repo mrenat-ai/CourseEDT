@@ -41,6 +41,7 @@
   <roles>Role.ПолныеПрава</roles>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Справочник1</catalogs>
   <documents>Document.ПоступлениеТоваров</documents>
 </mdclass:Configuration>
